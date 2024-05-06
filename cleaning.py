@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np 
 from datetime import datetime as dt 
 
-df = pd.read_csv('/Users/kaceyton/Documents/IBM DA/fire incidents SF/Fire_Department_Calls_For_Service__2016__20240124.csv',
+df = pd.read_csv('[REDACTED FILE PATH]',
 dtype = {'Call Number': str, 
 'Received DtTm': object,
 'Dispatch DtTm': object,
