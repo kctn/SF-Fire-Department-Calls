@@ -55,7 +55,7 @@ try:
 except Exception as error: 
     print("Error:", error)
 
-#Revmoe NaN vallues 
+#Remove NaN vallues 
 try: 
     df1 = df1.dropna().reset_index()
     df2 = df2.dropna().reset_index()
